@@ -1,0 +1,340 @@
+/* #Site Styles
+================================================== */
+html {background-color:#0c0b0b;}
+body {
+  font:75% 'Quattrocento Sans', 'Myriad Pro', Arial, sans-serif;
+  color:#d9c494;
+  position:relative;
+  background: -moz-linear-gradient(top,  #1f1e1c 0%, #1f1e1c 26%, #0c0b0b 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1f1e1c), color-stop(26%,#1f1e1c), color-stop(100%,#0c0b0b));
+  background: -webkit-linear-gradient(top,  #1f1e1c 0%,#1f1e1c 26%,#0c0b0b 100%);
+  background: -o-linear-gradient(top,  #1f1e1c 0%,#1f1e1c 26%,#0c0b0b 100%);
+  background: -ms-linear-gradient(top,  #1f1e1c 0%,#1f1e1c 26%,#0c0b0b 100%);
+  background: linear-gradient(top,  #1f1e1c 0%,#1f1e1c 26%,#0c0b0b 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1f1e1c', endColorstr='#0c0b0b',GradientType=0 );
+}
+
+p{font-size:1.1em;line-height:1.4em;}
+
+h1,h2,h3,h4,h5,h6 {font-weight:normal; font-family:'Days One', 'Myriad Pro', Arial, sans-serif;}
+
+section{min-height:10em;}
+  section h1, aside h1{color:#d9c494;text-shadow:0px 2px 2px black;}
+
+article{
+  border:1px solid #453d34;
+  padding:2%;
+  background: #141413;
+  background: -moz-linear-gradient(top,  #141413 0%, #0b0b0b 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#141413), color-stop(100%,#0b0b0b));
+  background: -webkit-linear-gradient(top,  #141413 0%,#0b0b0b 100%);
+  background: -o-linear-gradient(top,  #141413 0%,#0b0b0b 100%);
+  background: -ms-linear-gradient(top,  #141413 0%,#0b0b0b 100%);
+  background: linear-gradient(top,  #141413 0%,#0b0b0b 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#141413', endColorstr='#0b0b0b',GradientType=0 );
+}
+  article li a {text-decoration:none;color:#d9c494;}
+  article li a:hover {color:#fc3;}
+
+aside{position:relative;}
+  
+
+/* #Page Styles
+================================================== */
+#wrapper{background:url(../img/header_bg.jpg) no-repeat 0 14px transparent;min-height:1712px;z-index:1;}
+
+.section-wrap{position:relative;}
+
+  div#bgNavFull {
+    width:100%;
+    position:absolute;
+    top:121px;
+    height:3.3em;
+    border-top:2px solid #141413;
+    background-color: #141413;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#141413), to(#0a0a0a)); 
+    background-image: -webkit-linear-gradient(top, #141413, #0a0a0a); 
+    background-image:    -moz-linear-gradient(top, #141413, #0a0a0a); 
+    background-image:     -ms-linear-gradient(top, #141413, #0a0a0a);
+    background-image:      -o-linear-gradient(top, #141413, #0a0a0a); 
+    background-image:         linear-gradient(to bottom, #141413, #0a0a0a);
+  }
+  
+  div#bgFooter {
+    background-color:rgba(0,0,0,.2);
+    position:absolute;
+    bottom:0;
+    width:100%;
+    min-height:20em;
+    border-top:1px solid #282724;
+  }
+  
+  /* Header */
+  
+  header {margin:2em 0 2px;}
+    
+    header h1 a {
+      background:url(../img/icons/csi.png) no-repeat left top;
+      text-decoration:none !important;
+      text-transform:uppercase;
+      font-size:0.53em;
+      display:block;
+      padding:0.5em 0 0 2.4em;
+      height:3.4em;
+      color:white !important;
+      text-shadow:0px -3px 2px black;
+    }
+    
+    header h1 a small {text-transform:none;display:block;font-size:0.43em;line-height:0.3em;letter-spacing:1px;}
+    
+    header h1 a:hover{text-shadow:0px -4px 3px black;}
+  
+  /* Social Media Links */
+  #socialMedia {margin-top:2.4em;}
+    #socialMedia > ul {float:right; list-style:none;margin:0;padding:0;min-width:10em;}
+    #socialMedia > ul li{
+      display:inline;
+      float:left;
+      margin:0 1.7em 1em 0.6em;
+    }
+    #socialMedia > ul li a{
+      background:url(../img/icons/supermassivecsspriteicons.png) no-repeat;
+      width:32px;
+      height:33px;
+      display:inline-block;
+      text-decoration:none;
+      text-indent:-10000px;
+      outline:none;
+    }
+    #socialMedia > ul li:first-child a{background-position: 0px -73px;}
+    #socialMedia > ul li:nth-child(2) a {background-position: 0px -1552px;}
+    #socialMedia > ul li:nth-child(3) a {background-position: 0px -1623px;}
+    
+    #socialMedia > ul li:first-child a:hover {background-position: -38px -73px;}
+    #socialMedia > ul li:nth-child(2) a:hover {background-position: -38px -1552px;}
+    #socialMedia > ul li:nth-child(3) a:hover {background-position: -38px -1623px;}
+
+/* Main Navigation */
+#topnav{
+  height:3.3em;
+  border-top:2px solid #141413;
+  background-color: #141413;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#141413), to(#0a0a0a)); 
+  background-image: -webkit-linear-gradient(top, #141413, #0a0a0a); 
+  background-image:    -moz-linear-gradient(top, #141413, #0a0a0a); 
+  background-image:     -ms-linear-gradient(top, #141413, #0a0a0a);
+  background-image:      -o-linear-gradient(top, #141413, #0a0a0a); 
+  background-image:         linear-gradient(to bottom, #141413, #0a0a0a);
+}
+  #topnav nav {clear:right;}  
+    #topnav nav ul {margin:0;padding:0;}
+    #topnav nav ul li {float:left;display:inline;}
+    #topnav nav ul li:first-child a{border-left:none;}
+    #topnav nav ul li:last-child a{border-right:none;}
+    #topnav nav ul li a{      
+      background-color: #141413;
+      background-image: -webkit-gradient(linear, left top, left bottom, from(#141413), to(#0a0a0a)); 
+      background-image: -webkit-linear-gradient(top, #141413, #0a0a0a); 
+      background-image:    -moz-linear-gradient(top, #141413, #0a0a0a); 
+      background-image:     -ms-linear-gradient(top, #141413, #0a0a0a);
+      background-image:      -o-linear-gradient(top, #141413, #0a0a0a); 
+      background-image:         linear-gradient(to bottom, #141413, #0a0a0a);
+      font:1em/3.3em 'Quattrocento Sans', 'Myriad Pro', arial, sans-serif;
+      text-decoration:none;
+      color:white !important;
+      padding:1em 1.5em;
+      height:3.3em;
+      border-top:2px solid black;
+      border-right:1px solid #040404;
+      border-left:1px solid #1f1e1c;
+   }
+   #topnav nav ul li a:hover {
+      background-color: #0a0a0a;
+      background-image: -webkit-gradient(linear, left top, left bottom, from(#0a0a0a), to(#141413));
+      background-image: -webkit-linear-gradient(top, #0a0a0a, #141413); 
+      background-image:    -moz-linear-gradient(top, #0a0a0a, #141413); 
+      background-image:     -ms-linear-gradient(top, #0a0a0a, #141413);
+      background-image:      -o-linear-gradient(top, #0a0a0a, #141413);
+      background-image:         linear-gradient(to bottom, #0a0a0a, #141413);
+      border-top:1px solid #d9c494
+   }
+   
+/* Homepage Slides */
+div#slider-home{position:relative;margin-bottom:4em;}
+div#bannerHome {
+  clear:both;
+  position:relative;
+  border:10px solid rgba(0,0,0,.3);
+  border-bottom-width:3em;
+  -moz-border-radius:4px 4px 10px 10px;
+  -webkit-border-radius:4px 4px 10px 10px;
+  -o-border-radius:4px 4px 10px 10px;
+  border-radius:4px 4px 10px 10px;
+}
+  div#bannerHome li {margin-bottom:0;}
+  
+  div#bannerHomeControl ul li a{top:44%;}
+  div#bannerHomeControl ul li a.prev{left:-14px;}
+  div#bannerHomeControl ul li a.next{right:-14px;}
+  div#bannerHomeControl ol{position:absolute;right:0;bottom:18px;}
+  div#bannerHomeControl ol li a {left:0;background:url(../img/icons/bullets.png) no-repeat 0 0;width:12px;height:12px;cursor:pointer;}
+  div#bannerHomeControl ol li a.active{background-position: 0 -22px;}
+  
+/* Main Content */
+#mainContent {clear:both;margin-bottom:4em;}
+  .title-stick{display:block;position:absolute;top:-33px;font-size:1.7em;letter-spacing:1px;}
+  #welcome {margin-bottom:3em;}
+  #welcome span{color:white;text-transform:uppercase;font-weight:bold;font-size:1.2em;}
+  
+/* Latest News Home */
+#latest-home {min-height:12em;}
+#latest-home ul {margin:1em 0 0 0.6em;}
+#latest-home li h4 {line-height:0.6em;}
+#latest-home li h4 a{color:#c90;font-size:64%;}
+#latest-home li h4 a:hover {color:#fc3;}
+  
+  
+/* Footer */
+footer {clear:both;}
+  footer h6{color:#ccc;font-size:70%;text-align:right;}
+  
+  #bottomnav li{display:inline;margin-right:1em;}
+  #bottomnav li a{text-decoration:none;color:#d9c494;font-size:80%;}
+  #bottomnav li a:hover{color:white;}
+
+/* Roundabout */
+#roundabout {position:relative;}
+#circular {min-height:20em;}
+  #alt-text {color:#fc3;font-size:1.2em;text-shadow:0px 1px 0px black;}
+  #prev-btn, #next-btn{border:none;background:none;position:absolute;bottom:-10%;cursor:pointer;color:#c90;font-size:2.6em;padding:0 0.3em;text-shadow:none;}
+  #prev-btn{right:17%;}
+  #next-btn{right:11%;}
+  #prev-btn:hover, #next-btn:hover{color:#fc3;}
+  
+/* Exclusive Disttributor */
+#distributorsList {
+  border-top:3px solid #dc8e1e;
+  border-bottom:3px solid #dc8e1e;
+  margin-bottom:2em;
+}
+  #exclusivelist{margin-left:1.4em}
+    #exclusivelist li{display:inline-block;margin:1.1em 0.8em 0.2em 0.4em;}
+    #exclusivelist li a{
+      background:url(../img/tire.png) no-repeat;
+      display:block;
+      width:144px;
+      height:129px;
+      text-decoration:none;
+      text-align:center;
+      font: 1.4em/129px 'Days One', 'Myriad Pro', Arial, sans-serif;
+      color:#fc3;
+      text-transform:uppercase;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8), -1px -1px 2px rgba(0, 0, 0, 0.9);
+    }
+   #exclusivelist li a:hover {color:#d9c494;}
+   
+/* FB Widget */
+#fb-widget {margin:1em 0;}
+#fb-widget iframe {
+  display:block;
+  margin:auto;
+}
+
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {
+      #wrapper {min-height:1740px;}
+      div#bgNavFull {top:107px;}
+      
+      #headcontent h1 a {font-size:0.4em;padding:1em 0 0 3em;line-height:2em;}
+      #headcontent h1 a small {font-size:0.42em;}
+      
+      #topnav nav ul li a {padding:1em 0.8em;}
+        
+      div#bannerHomeControl ul li a {top:40%;}
+      
+      .section-wrap article {padding:4%;}
+        
+      
+    }
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+      #exclusivelist, #exclusivelist li {margin:0;}
+      
+      #exclusivelist li {float:left;}
+      
+      #distributorsList {width:288px;min-height:33.4em;}
+    }
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+      #wrapper {background:none;min-height:2430px;}
+      div#slider-home {margin-bottom:2em;}
+      #socialMedia {margin-top:-0.36em;}
+        #socialMedia > ul li {margin: 0 0.5em 0.5em;}
+        #socialMedia > ul li a{
+          background:url(../img/icons/supermassivecsspriteicons-small.png) no-repeat;
+          width:23px;
+          height:24px;
+        }
+        
+        #socialMedia > ul li:first-child a {background-position: 0 -51px;}
+        #socialMedia > ul li:nth-child(2) a {background-position: 0 -1086px;}
+        #socialMedia > ul li:nth-child(3) a {background-position: 0 -1136px;}
+        
+        #socialMedia > ul li:first-child a:hover {background-position: -26px -51px;}
+        #socialMedia > ul li:nth-child(2) a:hover {background-position: -26px -1086px;}
+        #socialMedia > ul li:nth-child(3) a:hover {background-position: -26px -1136px;}
+        
+        #topnav nav ul li a {padding:1em 1.3em;}
+        
+        div#slider-home {padding:1em 0;}
+        
+        div#bannerHomeControl ul li a {top:35%;}
+        div#bannerHomeControl ol {bottom:28px;}
+    }  
+    
+
+      
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+      #distributorsList {margin-top:4em;}
+    }
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+      div#bgNavFull {top:92px;height:2.73em;}
+      #wrapper {min-height:2870px;}
+      
+      #headcontent h1 a {font-size:0.33em;padding:1em 0 0 3.4em;}
+      #headcontent h1 a small {font-size:0.36em;}
+      
+      #topnav {height:2.73em;}
+      #topnav nav ul li a{font-size:0.8em;padding:1em 0.8em;}
+      
+      #exclusivelist li {margin-left:15%;}
+      
+      #distributorsList {margin-top:4em;}
+    }
+
+
+/* #Font-Face
+================================================== */
+/* 	This is the proper syntax for an @font-face file
+		Just create a "fonts" folder at the root,
+		copy your FontName into code below and remove
+		comment brackets */
+
+/*	@font-face {
+	    font-family: 'FontName';
+	    src: url('../fonts/FontName.eot');
+	    src: url('../fonts/FontName.eot?iefix') format('eot'),
+	         url('../fonts/FontName.woff') format('woff'),
+	         url('../fonts/FontName.ttf') format('truetype'),
+	         url('../fonts/FontName.svg#webfontZam02nTh') format('svg');
+	    font-weight: normal;
+	    font-style: normal; }
+*/
